@@ -1,0 +1,3 @@
+# GoTeams
+
+Initial commit
