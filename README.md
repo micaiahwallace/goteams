@@ -49,7 +49,7 @@ func (client *TeamsClient) GetTeams() ([]msgraph.Group, error)
 
 ## Examples
 
-The examples live in the cmd directory and can be installed by name via `go get github.com/micaiahwallace/cmd/cli-name`. For these examples to connect to you Microsoft tenant, you must first register a new application in the Microsoft Azure portal [with this link](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps). Once the app registration is created, you can then continue to add the desired permissions from the "API permissions" menu and create your client secret in the "Certificates & secrets" menu.
+The examples live in the cmd directory and can be installed by name via `go get github.com/micaiahwallace/goteams/cmd/cli-name`. For these examples to connect to you Microsoft tenant, you must first register a new application in the Microsoft Azure portal [with this link](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps). Once the app registration is created, you can then continue to add the desired permissions from the "API permissions" menu and create your client secret in the "Certificates & secrets" menu.
 
 
 ## Install teams app on all teams (cmd/install-app-on-teams)

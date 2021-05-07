@@ -36,7 +36,7 @@ func main() {
 	// 	log.Fatal(getTeamsErr)
 	// }
 
-	teamId := "XXX"
+	teamId := "xxx"
 
 	// sample team
 	teams := make([]msgraph.Team, 1)
